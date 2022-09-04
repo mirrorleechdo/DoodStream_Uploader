@@ -43,7 +43,6 @@ async def search_user_in_community(
     bot : Update,
     update : Message
     ):
-    return None
     try:
         await bot.get_chat_member(
             '@AJPyroVerse',
