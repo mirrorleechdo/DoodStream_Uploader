@@ -45,11 +45,11 @@ async def search_user_in_community(
     ):
     try:
         await bot.get_chat_member(
-            '@AJPyroVerse',
+            '@SmxUpdates',
             update.chat.id
         )
         await bot.get_chat_member(
-            '@AJPyroVerseGroup',
+            '@SmxUpdates',
             update.chat.id
         )
     except UserNotParticipant:
@@ -61,13 +61,13 @@ async def search_user_in_community(
                     [
                         InlineKeyboardButton(
                             'Join our Channel.',
-                            url = 'https://t.me/AJPyroVerse'
+                            url = 'https://t.me/SmxUpdates'
                         )
                     ],
                     [
                         InlineKeyboardButton(
                             'Join our Group.',
-                            url = 'https://t.me/AJPyroVerseGroup'
+                            url = 'https://t.me/SmxUpdates'
                         )
                     ]
                 ]
