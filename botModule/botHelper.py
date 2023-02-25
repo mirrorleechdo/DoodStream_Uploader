@@ -45,11 +45,11 @@ async def search_user_in_community(
     ):
     try:
         await bot.get_chat_member(
-            '@Hamzavibes',
+            '@SmxUpdates',
             update.chat.id
         )
         await bot.get_chat_member(
-            '@Hamzavibes',
+            '@SmxUpdates',
             update.chat.id
         )
     except UserNotParticipant:
